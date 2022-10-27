@@ -20,21 +20,8 @@ require_once('./header.php')
           "firstName": "Frank",
           "lastName": "Kendall",
           "mobilePhone": "0412345678"
-      },
-      {
-          "studentID": "s7654321",
-          "firstName": "Shelley",
-          "lastName": "Tucker",
-          "mobilePhone": "0487654321"
-      },
-      {
-          "studentID": "s3123456",
-          "firstName": "Leonard",
-          "lastName": "Odonnell",
-          "mobilePhone": "0412341234"
       }
-      ]
-    }
+ 
   ]')
 
   ?>
@@ -43,7 +30,7 @@ require_once('./header.php')
   foreach ($data as $i) {
     if (((array)$i)["courseID"] == $id) {
       $item = (array)$i;
-    }
+    } ]
   }
 
   ?>
